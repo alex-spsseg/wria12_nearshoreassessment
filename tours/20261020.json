@@ -73,70 +73,70 @@
     },
     {
       "site_id": "img_20261020_080530_00_111",
-      "display_name": "Stop 20",
+      "display_name": "Stop 11",
       "lat": 47.27747441131227,
       "lng": -122.46999833925426,
       "alt": -18.3
     },
     {
       "site_id": "img_20261020_080652_00_113",
-      "display_name": "Stop 11",
+      "display_name": "Stop 12",
       "lat": 47.27728243430964,
       "lng": -122.4705727833563,
       "alt": -20.82
     },
     {
       "site_id": "img_20261020_080741_00_114",
-      "display_name": "Stop 12",
+      "display_name": "Stop 13",
       "lat": 47.27744645224034,
       "lng": -122.47107872050817,
       "alt": -20.07
     },
     {
       "site_id": "img_20261020_080940_00_115",
-      "display_name": "Stop 13",
+      "display_name": "Stop 14",
       "lat": 47.2776353552114,
       "lng": -122.47166766064166,
       "alt": -19.76
     },
     {
       "site_id": "img_20261020_081246_00_116",
-      "display_name": "Stop 14",
+      "display_name": "Stop 15",
       "lat": 47.27777377521614,
       "lng": -122.4714338216785,
       "alt": -20.05
     },
     {
       "site_id": "img_20261020_081717_00_117",
-      "display_name": "Stop 15",
+      "display_name": "Stop 16",
       "lat": 47.277517350374495,
       "lng": -122.47031038444817,
       "alt": -17.51
     },
     {
       "site_id": "img_20261020_082633_00_118",
-      "display_name": "Stop 16",
+      "display_name": "Stop 17",
       "lat": 47.2766584145846,
       "lng": -122.46836352991927,
       "alt": -22.51
     },
     {
       "site_id": "img_20261020_090930_00_119",
-      "display_name": "Stop 17",
+      "display_name": "Stop 18",
       "lat": 47.28006942230723,
       "lng": -122.47828905630452,
       "alt": -18.61
     },
     {
       "site_id": "img_20261020_093533_00_120",
-      "display_name": "Stop 18",
+      "display_name": "Stop 19",
       "lat": 47.309587459229306,
       "lng": -122.52280793941509,
       "alt": -19.33
     },
     {
       "site_id": "img_20261020_094159_00_121",
-      "display_name": "Stop 19",
+      "display_name": "Stop 20",
       "lat": 47.309223792080935,
       "lng": -122.52308222165935,
       "alt": -22.4
@@ -157,7 +157,7 @@
       "label": "USGS Topo",
       "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
       "opacity": 1.0,
-      "default_on": true,
+      "default_on": false,
       "type": "tile"
     }
   ],
