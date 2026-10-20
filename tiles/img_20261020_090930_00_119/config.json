@@ -10,7 +10,20 @@
   "label_1": "IMG_20261020_090930_00_119 (2026/10/20)",
   "label_2": "",
   "autorotate": false,
-  "hotspots_1": [],
+  "hotspots_1": [
+    {
+      "yaw": 0.27550639100026686,
+      "pitch": 0.3179001479294161,
+      "title": "Culvert Baffles",
+      "text": "",
+      "link": "",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_090930_00_119/hotspot_images/1792538453786.jpg"
+      ]
+    }
+  ],
   "hotspots_2": [],
   "levels_1": [],
   "levels_2": [],
