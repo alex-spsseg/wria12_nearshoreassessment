@@ -10,7 +10,19 @@
   "label_1": "IMG_20261020_074304_00_104 (2026/10/20)",
   "label_2": "",
   "autorotate": false,
-  "hotspots_1": [],
+  "hotspots_1": [
+    {
+      "yaw": 1.6540613101390844,
+      "pitch": -0.02075858035033417,
+      "title": "Stop 5",
+      "text": "",
+      "link": "",
+      "category": "link",
+      "pin_style": "label_hover",
+      "target": "img_20261020_074622_00_105",
+      "link_icon": "ground"
+    }
+  ],
   "hotspots_2": [],
   "levels_1": [],
   "levels_2": [],

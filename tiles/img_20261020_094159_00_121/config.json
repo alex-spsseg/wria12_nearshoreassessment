@@ -10,7 +10,19 @@
   "label_1": "IMG_20261020_094159_00_121 (2026/10/20)",
   "label_2": "",
   "autorotate": false,
-  "hotspots_1": [],
+  "hotspots_1": [
+    {
+      "yaw": 3.184757148501313,
+      "pitch": -0.0674905579973876,
+      "title": "Stop 19",
+      "text": "",
+      "link": "",
+      "category": "link",
+      "pin_style": "label_hover",
+      "target": "img_20261020_093533_00_120",
+      "link_icon": "ground"
+    }
+  ],
   "hotspots_2": [],
   "levels_1": [],
   "levels_2": [],
