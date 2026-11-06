@@ -14,11 +14,11 @@
     {
       "yaw": -2.1501909551112135,
       "pitch": 0.5267315040232905,
-      "title": "",
+      "title": "Culvert Outlet (921020)",
       "text": "",
-      "link": "",
+      "link": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921020_Report.pdf",
       "category": "photo",
-      "pin_style": "dot",
+      "pin_style": "label_hover",
       "images": [
         "tiles/img_20261020_082633_00_118/hotspot_images/1793995399831.jpg",
         "tiles/img_20261020_082633_00_118/hotspot_images/1793995400152.jpg"
