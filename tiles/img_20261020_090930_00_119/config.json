@@ -27,13 +27,16 @@
     {
       "yaw": 0.19632991487039142,
       "pitch": 0.6461050858711204,
-      "title": "Puget Creek Fishway",
-      "text": "Older photo taken in ~2003",
-      "link": "",
+      "title": "Puget Creek Fishway Project (#99-1403)",
+      "text": "Photos taken ~2003",
+      "link": "https://securetest.rco.wa.gov/PRISM/projectsearch/project/99-1403",
       "category": "photo",
       "pin_style": "label_hover",
       "images": [
-        "tiles/img_20261020_090930_00_119/hotspot_images/1793993058496.jpg"
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793993058496.jpg",
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793993379113.jpg",
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793993379133.jpg",
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793993379152.jpg"
       ]
     }
   ],
