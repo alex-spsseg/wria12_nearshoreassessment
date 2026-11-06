@@ -12,15 +12,28 @@
   "autorotate": false,
   "hotspots_1": [
     {
-      "yaw": 0.27550639100026686,
-      "pitch": 0.3179001479294161,
+      "yaw": -2.367012580936173,
+      "pitch": 1.2115416918343875,
       "title": "Culvert Baffles",
-      "text": "",
+      "text": "Current view of culvert inlet and metal baffles within the pipe",
       "link": "",
       "category": "photo",
       "pin_style": "label_hover",
       "images": [
-        "tiles/img_20261020_090930_00_119/hotspot_images/1792538453786.jpg"
+        "tiles/img_20261020_090930_00_119/hotspot_images/1792538453786.jpg",
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793993166394.jpg"
+      ]
+    },
+    {
+      "yaw": 0.19632991487039142,
+      "pitch": 0.6461050858711204,
+      "title": "Puget Creek Fishway",
+      "text": "Older photo taken in ~2003",
+      "link": "",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793993058496.jpg"
       ]
     }
   ],
