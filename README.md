@@ -6,4 +6,4 @@ Live site: [All tours](https://alex-spsseg.github.io/wria12_nearshoreassessment/
 
 ## Tours
 
-- [Rustin Way / Pt. Defiance Site Visits (+2ft tide)](https://alex-spsseg.github.io/wria12_nearshoreassessment/index.html?tour=20261020) (visited 2026-10-20, 22 stops)
+- [Ruston Way / Pt. Defiance Site Visits (+2ft tide)](https://alex-spsseg.github.io/wria12_nearshoreassessment/index.html?tour=20261020) (visited 2026-10-20, 22 stops)
