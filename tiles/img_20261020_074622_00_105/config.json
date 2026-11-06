@@ -14,13 +14,39 @@
     {
       "yaw": 2.18323820006765,
       "pitch": 0.02075858035033417,
-      "title": "Stop 4",
+      "title": "Stop 4 \u00b7 17 m",
       "text": "",
       "link": "",
       "category": "link",
       "pin_style": "label_hover",
       "target": "img_20261020_074304_00_104",
       "link_icon": "ground"
+    },
+    {
+      "yaw": 2.0191303273451684,
+      "pitch": 0.16890566444005017,
+      "title": "Culvert Outlet",
+      "text": "",
+      "link": "",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_074622_00_105/hotspot_images/1793994170281.jpg",
+        "tiles/img_20261020_074622_00_105/hotspot_images/1793994170693.jpg"
+      ]
+    },
+    {
+      "yaw": -0.13279006889460376,
+      "pitch": 0.11691507795242373,
+      "title": "",
+      "text": "",
+      "link": "",
+      "category": "photo",
+      "pin_style": "dot",
+      "images": [
+        "tiles/img_20261020_074622_00_105/hotspot_images/1793994264165.jpg",
+        "tiles/img_20261020_074622_00_105/hotspot_images/1793994264476.jpg"
+      ]
     }
   ],
   "hotspots_2": [],

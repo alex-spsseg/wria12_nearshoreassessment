@@ -14,13 +14,39 @@
     {
       "yaw": -3.054373909768028,
       "pitch": 0.004801222484324796,
-      "title": "Stop 19",
+      "title": "Stop 21 \u00b7 45 m",
       "text": "",
       "link": "",
       "category": "link",
       "pin_style": "label_hover",
       "target": "img_20261020_093533_00_120",
       "link_icon": "ground"
+    },
+    {
+      "yaw": 0.13198947560400853,
+      "pitch": 0.03736217556943089,
+      "title": "Culvert Outlet (921008)",
+      "text": "",
+      "link": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921008_Report.pdf",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_094159_00_121/hotspot_images/1793996004817.jpg",
+        "tiles/img_20261020_094159_00_121/hotspot_images/1793996005258.jpg"
+      ]
+    },
+    {
+      "yaw": -2.9788359974675984,
+      "pitch": 0.09163480622109432,
+      "title": "Culvert Inlet (921007)",
+      "text": "",
+      "link": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921007_Report.pdf",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_094159_00_121/hotspot_images/1793996051354.jpg",
+        "tiles/img_20261020_094159_00_121/hotspot_images/1793996051749.jpg"
+      ]
     }
   ],
   "hotspots_2": [],

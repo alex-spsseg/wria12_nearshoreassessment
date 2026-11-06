@@ -14,13 +14,27 @@
     {
       "yaw": 2.4345417580612194,
       "pitch": -0.2817910562126684,
-      "title": "Stop 20",
+      "title": "Stop 22 \u00b7 45 m",
       "text": "",
       "link": "",
       "category": "link",
       "pin_style": "label_hover",
       "target": "img_20261020_094159_00_121",
       "link_icon": "ground"
+    },
+    {
+      "yaw": 2.449803023332767,
+      "pitch": 0.24178343723759,
+      "title": "Culvert Outlet (921009)",
+      "text": "Surveyor for Scale",
+      "link": "https://fortress.wa.gov/dfw/public/fishpassagephotos/reports/921009_Report.pdf",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_093533_00_120/hotspot_images/1793995738292.jpg",
+        "tiles/img_20261020_093533_00_120/hotspot_images/1793995738696.jpg",
+        "tiles/img_20261020_093533_00_120/hotspot_images/1793996078003.jpg"
+      ]
     }
   ],
   "hotspots_2": [],

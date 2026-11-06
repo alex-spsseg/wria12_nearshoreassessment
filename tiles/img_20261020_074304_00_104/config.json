@@ -14,13 +14,26 @@
     {
       "yaw": 1.6540613101390844,
       "pitch": -0.02075858035033417,
-      "title": "Stop 5",
+      "title": "Stop 5 \u00b7 17 m",
       "text": "",
       "link": "",
       "category": "link",
       "pin_style": "label_hover",
       "target": "img_20261020_074622_00_105",
       "link_icon": "ground"
+    },
+    {
+      "yaw": 2.8333178366263816,
+      "pitch": 0.6246931824230924,
+      "title": "Oblique View",
+      "text": "",
+      "link": "",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_074304_00_104/hotspot_images/1793994103973.jpg",
+        "tiles/img_20261020_074304_00_104/hotspot_images/1793994104351.jpg"
+      ]
     }
   ],
   "hotspots_2": [],

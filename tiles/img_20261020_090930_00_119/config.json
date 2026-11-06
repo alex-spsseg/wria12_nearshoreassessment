@@ -25,8 +25,8 @@
       ]
     },
     {
-      "yaw": 0.19632991487039142,
-      "pitch": 0.6461050858711204,
+      "yaw": 0.26926526317514465,
+      "pitch": 0.2201542637873466,
       "title": "Puget Creek Fishway Project (#99-1403)",
       "text": "Photos taken ~2003",
       "link": "https://securetest.rco.wa.gov/PRISM/projectsearch/project/99-1403",
@@ -37,6 +37,19 @@
         "tiles/img_20261020_090930_00_119/hotspot_images/1793993379113.jpg",
         "tiles/img_20261020_090930_00_119/hotspot_images/1793993379133.jpg",
         "tiles/img_20261020_090930_00_119/hotspot_images/1793993379152.jpg"
+      ]
+    },
+    {
+      "yaw": -2.7365263521173055,
+      "pitch": 0.14198949263834848,
+      "title": "Surface Grate",
+      "text": "",
+      "link": "",
+      "category": "photo",
+      "pin_style": "label_hover",
+      "images": [
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793995650172.jpg",
+        "tiles/img_20261020_090930_00_119/hotspot_images/1793995650606.jpg"
       ]
     }
   ],

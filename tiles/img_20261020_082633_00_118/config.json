@@ -10,7 +10,33 @@
   "label_1": "IMG_20261020_082633_00_118 (2026/10/20)",
   "label_2": "",
   "autorotate": false,
-  "hotspots_1": [],
+  "hotspots_1": [
+    {
+      "yaw": -2.1501909551112135,
+      "pitch": 0.5267315040232905,
+      "title": "",
+      "text": "",
+      "link": "",
+      "category": "photo",
+      "pin_style": "dot",
+      "images": [
+        "tiles/img_20261020_082633_00_118/hotspot_images/1793995399831.jpg",
+        "tiles/img_20261020_082633_00_118/hotspot_images/1793995400152.jpg"
+      ]
+    },
+    {
+      "yaw": -1.3756702804063465,
+      "pitch": 0.11557017921137636,
+      "title": "",
+      "text": "",
+      "link": "",
+      "category": "photo",
+      "pin_style": "dot",
+      "images": [
+        "tiles/img_20261020_082633_00_118/hotspot_images/1793995433619.jpg"
+      ]
+    }
+  ],
   "hotspots_2": [],
   "levels_1": [],
   "levels_2": [],
