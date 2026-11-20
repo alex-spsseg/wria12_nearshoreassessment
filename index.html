@@ -1168,6 +1168,12 @@
     .edit-tab:hover { color: #fff; background: rgba(179, 102, 255, 0.22); }
     .edit-tab.on { background: #b366ff; color: #1a0e33; }
     #edit-tools-panel .edit-group { display: none !important; border: 0; padding: 0; }
+    /* Flat stop in local preview: only the Heading and Position blocks apply (aim at a map point or nudge the dial). */
+    body.flat-stop #edit-tools-panel #edit-tabs { display: none !important; }
+    body.flat-stop #edit-tools-panel #heading-group,
+    body.flat-stop #edit-tools-panel #position-group { display: block !important; }
+    body.flat-stop #edit-tools-panel #hotspots-group { display: none !important; }
+    body.flat-stop #hdg-aim-btn { display: none; }
     #edit-tools-panel[data-tab="hotspots-group"] #hotspots-group,
     #edit-tools-panel[data-tab="position-group"] #position-group,
     #edit-tools-panel[data-tab="heading-group"] #heading-group { display: block !important; }
@@ -1276,7 +1282,7 @@
 </head>
 <body>
 
-  <div id="build-timestamp">Built 2026-11-16 08:40:55</div>
+  <div id="build-timestamp">Built 2026-11-19 17:37:40</div>
 
   <div id="status-banner"></div>
 
@@ -6634,8 +6640,8 @@
       function aimAndSave() {
         var btn = document.getElementById('hdg-aim-btn');
         var b = neighborBearing();
-        if (b == null || !viewL) { flash(btn, 'Missing GPS for neighbor', 1800); return; }
-        var yaw = viewL.parameters().yaw * 180 / Math.PI;
+        if (b == null || (!viewL && !flatConeActive)) { flash(btn, 'Missing GPS for neighbor', 1800); return; }
+        var yaw = flatConeActive ? 0 : viewL.parameters().yaw * 180 / Math.PI;
         saveThen((b - yaw + 360) % 360, btn, true);
       }
       var mapArmed = false;
@@ -6648,9 +6654,10 @@
       function mapClick(e) {
         if (!mapArmed) return;
         var me = findTourSiteLatLng(activeTourSiteId);
-        if (!me || !viewL) { setArmed(false); return; }
+        if (!me || (!viewL && !flatConeActive)) { setArmed(false); return; }
         var b = computeBearingJs(me[0], me[1], e.latlng.lat, e.latlng.lng);
-        var yaw = viewL.parameters().yaw * 180 / Math.PI;
+        // A flat photo has no pan: the photo's center is the direction the camera faced.
+        var yaw = flatConeActive ? 0 : viewL.parameters().yaw * 180 / Math.PI;
         setArmed(false);
         saveThen((b - yaw + 360) % 360, document.getElementById('hdg-map-btn'), true);
       }
@@ -7868,6 +7875,7 @@
         // comes next -- so it's deliberately left alone here.
         if (tourHasMap) mapToggleBtn.style.display = 'inline-block';
         flatConeActive = false;
+        document.body.classList.remove('flat-stop');
       }
 
       function showFlatStop(sid, config, fallbackLabel) {
@@ -7914,7 +7922,14 @@
         document.getElementById('pano-right-wrapper').style.visibility = 'hidden';
         document.getElementById('autorotate-btn').style.display = 'none';
         document.getElementById('reset-btn').style.display = 'none';
-        document.getElementById('edit-tools-panel').style.display = 'none';
+        if (location.hostname === '127.0.0.1' || location.hostname === 'localhost') {
+          document.getElementById('edit-tools-panel').style.display = 'flex';
+          document.getElementById('heading-dial-row').style.display = 'block';
+          document.getElementById('position-row').style.display = 'block';
+          document.body.classList.add('flat-stop');
+        } else {
+          document.getElementById('edit-tools-panel').style.display = 'none';
+        }
         document.getElementById('hotspots-toggle-btn').style.display = 'none';
         // The map is tour wide, so it stays available for flat stops
         // (its panel floats above the flat overlay). A flat stop with a
@@ -8491,6 +8506,7 @@
         if (sceneCache[sid]) {
           sceneCache[sid].heading = heading;
           sceneCache[sid].headingKnown = known;
+          if (sceneCache[sid].flat && sceneCache[sid].config) sceneCache[sid].config.heading = heading;
         }
       };
 
